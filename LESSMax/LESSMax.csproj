@@ -65,6 +65,12 @@
     <Content Include="Framework\Components\Buttons.min.css">
       <DependentUpon>Buttons.css</DependentUpon>
     </Content>
+    <Content Include="Framework\Components\Components.css">
+      <DependentUpon>Components.less</DependentUpon>
+    </Content>
+    <Content Include="Framework\Components\Components.min.css">
+      <DependentUpon>Components.css</DependentUpon>
+    </Content>
     <Content Include="Framework\Components\Forms.css">
       <DependentUpon>Forms.less</DependentUpon>
     </Content>
@@ -82,6 +88,12 @@
     </Content>
     <Content Include="Framework\Functions\Functions.min.css">
       <DependentUpon>Functions.css</DependentUpon>
+    </Content>
+    <Content Include="Framework\LESSMax.css">
+      <DependentUpon>LESSMax.less</DependentUpon>
+    </Content>
+    <Content Include="Framework\LESSMax.min.css">
+      <DependentUpon>LESSMax.css</DependentUpon>
     </Content>
     <Content Include="Framework\Parameters\ColorTheory.css">
       <DependentUpon>ColorTheory.less</DependentUpon>
@@ -123,6 +135,7 @@
     <Content Include="Framework\Functions\Functions.less" />
     <Content Include="Framework\Components\Tables.less" />
     <Content Include="Framework\Components\Forms.less" />
+    <Content Include="Framework\Components\Components.less" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
