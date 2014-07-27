@@ -1,0 +1,53 @@
+﻿@import '../Framework/Components/Buttons.less';
+@import '../Framework/Components/Tables.less';
+@import '../Framework/Components/Forms.less';
+
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+section {
+    margin: 2em;
+}
+
+.btn {
+    .button;
+}
+
+.btn-warning {
+    .button-warning;
+}
+
+.btn-danger {
+    .button-danger;
+}
+
+.btn-info {
+    .button-info;
+}
+
+.tbl1 {
+    .table;
+}
+
+.tbl2 {
+    .table;
+    .table-addin-alternate(lighten(@cl_table_bg,10%));
+}
+
+.tbl3 {
+    .table;
+    .table-addin-rounded(.3em);
+}
+
+.tbl4 {
+    .table;
+    .table-addin-hover(lighten(@cl_table_bg,10%));
+}
+
+.frm{
+    .form;
+    .form-addin-alternate(lighten(@cl_table_bg,10%));
+}

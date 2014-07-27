@@ -1,0 +1,41 @@
+﻿@import '../Parameters/Components.less';
+@import '../Functions/Functions.less';
+
+
+.button-template(@cl_fg,@cl_bg, @cl_alt_fg, @cl_alt_bg) {
+    .no-select;
+    height: 2em;
+    padding: .5em;
+    border-radius: .5em;
+    text-decoration: none;
+    background-color: @cl_bg;
+    color: @cl_fg;
+    font-family: @fnt_button;
+    cursor: pointer;
+    white-space:nowrap;
+    &:hover {
+        color: @cl_alt_fg;
+        background-color: @cl_alt_bg;
+    }
+
+    &:active {
+        background-color: @cl_bg;
+        color: @cl_fg;
+    }
+}
+
+.button() {
+    .button-template(@cl_button_fg,@cl_button_bg,@cl_button_hover_fg,@cl_button_hover_bg);
+}
+
+.button-info() {
+    .button-template(@cl_button_info_fg,@cl_button_info_bg,@cl_button_hover_fg,@cl_button_hover_bg);
+}
+
+.button-warning() {
+    .button-template(@cl_button_warning_fg,@cl_button_warning_bg,@cl_button_hover_fg,@cl_button_hover_bg);
+}
+
+.button-danger() {
+    .button-template(@cl_button_danger_fg,@cl_button_danger_bg,@cl_button_hover_fg,@cl_button_hover_bg);
+}

@@ -1,0 +1,54 @@
+﻿@import '../Parameters/Components.less';
+@import '../Functions/Functions.less';
+.form-addin-alternate(@cl_bg){
+    ul{
+        li:nth-Child(even){
+            background-color:@cl_bg;
+        }
+    }
+}
+.form() {
+    font-family: @fnt_forms;
+
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+
+        li {
+            margin-bottom: .5em;
+            padding:.3em;
+            flex-direction:row;
+            flex-flow:wrap;
+            display:flex;
+            label {
+                //display: inline-block;
+                width: 30%;
+                line-height: 2em;
+                padding-right: 1em;
+                text-align: right;
+                flex-shrink:1;
+            }
+
+            input {
+                flex-grow:1;
+                //display: inline-block;
+                width: 70%;
+                padding: 4px;
+                -webkit-appearance: none;
+                -moz-appearance: none;
+                border: 2px solid @cl_shade1;
+            }
+
+            textarea {
+                flex-grow:1;
+                //display: inline-block;
+                width: 50%;
+                min-height: 6em;
+                -webkit-appearance: none;
+                -moz-appearance: none;
+                border: 2px solid @cl_shade1;
+            }
+        }
+    }
+}

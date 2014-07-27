@@ -1,0 +1,266 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="Styles/Components.css" rel="stylesheet" />
+</head>
+<body>
+    <fieldset>
+        <legend>Forms</legend>
+        <section>
+            <div class="frm">
+                <ul>
+                    <li><label for="txt1">Text</label><input name="txt1" type="text" /></li>
+                    <li><label for="txt2">Email</label><input name="txt2" type="email" /></li>
+                    <li><label for="txt3">Number</label><input name="txt3" type="number" /></li>
+                    <li><label for="txt4">Date</label><input name="txt4" type="date" /></li>
+                    <li><label for="txt5">DateTime</label><input name="txt5" type="datetime" /></li>
+                    <li><label for="txt6">TextArea</label><textarea name="txt6"></textarea></li>
+                    <li><label for="txt7">Password</label><input name="txt7" type="password" /></li>
+                </ul>
+            </div>
+        </section>
+    </fieldset>
+    <fieldset>
+        <legend>Buttons</legend>
+        <section>
+            <a href="#" class="btn">.button()</a>
+            <a href="#" class="btn-info">.button-info()</a>
+            <a href="#" class="btn-warning">.button-warning()</a>
+            <a href="#" class="btn-danger">.button-danger()</a>
+        </section>
+    </fieldset>
+    <fieldset>
+        <legend>Tables</legend>
+        <section>
+            <pre>
+ .tbl1{
+    .table;
+}
+</pre>
+            <!-- Table markup-->
+
+            <table class="tbl1">
+
+                <!-- Table header -->
+
+                <thead>
+                    <tr>
+                        <th scope="col">Heading 1</th>
+                        <th scope="col">Heading 2</th>
+                        <th scope="col">Heading 3</th>
+                    </tr>
+                </thead>
+
+                <!-- Table footer -->
+
+                <tfoot>
+                    <tr>
+                        <td>Footer1</td>
+                        <td>Footer2</td>
+                        <td>Footer3</td>
+                    </tr>
+                </tfoot>
+
+                <!-- Table body -->
+
+                <tbody>
+                    <tr>
+                        <td>Cell 1</td>
+                        <td>Cell 2</td>
+                        <td>Cell 3</td>
+                    </tr>
+                    <tr>
+                        <td>Cell 1</td>
+                        <td>Cell 2</td>
+                        <td>Cell 3</td>
+                    </tr>
+                    <tr>
+                        <td>Cell 1</td>
+                        <td>Cell 2</td>
+                        <td>Cell 3</td>
+                    </tr>
+                    <tr>
+                        <td>Cell 1</td>
+                        <td>Cell 2</td>
+                        <td>Cell 3</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section>
+<pre>
+.tbl2{
+    .table;
+     .table-addin-alternate(lighten(@cl_table_bg,10%));
+}
+</pre>
+            <!-- Table markup-->
+
+            <table class="tbl2">
+
+                <!-- Table header -->
+
+                <thead>
+                    <tr>
+                        <th scope="col">Heading 1</th>
+                        <th scope="col">Heading 2</th>
+                        <th scope="col">Heading 3</th>
+                    </tr>
+                </thead>
+
+                <!-- Table footer -->
+
+                <tfoot>
+                    <tr>
+                        <td>Footer1</td>
+                        <td>Footer2</td>
+                        <td>Footer3</td>
+                    </tr>
+                </tfoot>
+
+                <!-- Table body -->
+
+                <tbody>
+                    <tr>
+                        <td>Cell 1</td>
+                        <td>Cell 2</td>
+                        <td>Cell 3</td>
+                    </tr>
+                    <tr>
+                        <td>Cell 1</td>
+                        <td>Cell 2</td>
+                        <td>Cell 3</td>
+                    </tr>
+                    <tr>
+                        <td>Cell 1</td>
+                        <td>Cell 2</td>
+                        <td>Cell 3</td>
+                    </tr>
+                    <tr>
+                        <td>Cell 1</td>
+                        <td>Cell 2</td>
+                        <td>Cell 3</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section>
+<pre>
+.tbl3{
+    .table;
+    .table-addin-rounded(.3em);
+}
+</pre>
+            <!-- Table markup-->
+
+            <table class="tbl3">
+
+                <!-- Table header -->
+
+                <thead>
+                    <tr>
+                        <th scope="col">Heading 1</th>
+                        <th scope="col">Heading 2</th>
+                        <th scope="col">Heading 3</th>
+                    </tr>
+                </thead>
+
+                <!-- Table footer -->
+
+                <tfoot>
+                    <tr>
+                        <td>Footer1</td>
+                        <td>Footer2</td>
+                        <td>Footer3</td>
+                    </tr>
+                </tfoot>
+
+                <!-- Table body -->
+
+                <tbody>
+                    <tr>
+                        <td>Cell 1</td>
+                        <td>Cell 2</td>
+                        <td>Cell 3</td>
+                    </tr>
+                    <tr>
+                        <td>Cell 1</td>
+                        <td>Cell 2</td>
+                        <td>Cell 3</td>
+                    </tr>
+                    <tr>
+                        <td>Cell 1</td>
+                        <td>Cell 2</td>
+                        <td>Cell 3</td>
+                    </tr>
+                    <tr>
+                        <td>Cell 1</td>
+                        <td>Cell 2</td>
+                        <td>Cell 3</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section>
+<pre>
+.tbl4{
+    .table;
+    .table-addin-hover(lighten(@cl_table_bg,10%));
+}
+</pre>
+            <!-- Table markup-->
+
+            <table class="tbl4">
+
+                <!-- Table header -->
+
+                <thead>
+                    <tr>
+                        <th scope="col">Heading 1</th>
+                        <th scope="col">Heading 2</th>
+                        <th scope="col">Heading 3</th>
+                    </tr>
+                </thead>
+
+                <!-- Table footer -->
+
+                <tfoot>
+                    <tr>
+                        <td>Footer1</td>
+                        <td>Footer2</td>
+                        <td>Footer3</td>
+                    </tr>
+                </tfoot>
+
+                <!-- Table body -->
+
+                <tbody>
+                    <tr>
+                        <td>Cell 1</td>
+                        <td>Cell 2</td>
+                        <td>Cell 3</td>
+                    </tr>
+                    <tr>
+                        <td>Cell 1</td>
+                        <td>Cell 2</td>
+                        <td>Cell 3</td>
+                    </tr>
+                    <tr>
+                        <td>Cell 1</td>
+                        <td>Cell 2</td>
+                        <td>Cell 3</td>
+                    </tr>
+                    <tr>
+                        <td>Cell 1</td>
+                        <td>Cell 2</td>
+                        <td>Cell 3</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+    </fieldset>
+
+</body>
+</html>

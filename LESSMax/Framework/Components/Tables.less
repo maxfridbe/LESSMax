@@ -1,0 +1,96 @@
+﻿@import '../Functions/Functions.less';
+@import '../Parameters/ColorTheory.less';
+@import '../Parameters/Components.less';
+
+.table-template(@cl_bg,@cl_fg) {
+    thead {
+        th {
+            background-color: @cl_fg;
+            color: @cl_bg;
+            padding:.3em .3em .3em .3em;
+            line-height:1.6em;
+        }
+    }
+
+    tbody {
+        tr {
+            
+            background-color: @cl_bg;
+            color: @cl_fg;
+            td{
+                padding:.3em;
+            }
+        }
+    }
+
+    tfoot {
+        tr {
+            td{
+                padding:.3em;
+            }
+            line-height:1.6em;
+            background-color: @cl_fg;
+            color: @cl_bg;
+        }
+    }
+}
+
+.table() {
+    font-family: @fnt_table;
+    margin: 0;
+    padding: 0;
+    border-spacing: 0;
+    .table-template(@cl_table_bg,@cl_table_fg);
+}
+
+.table-addin-alternate(@cl_row_alt) {
+    tbody {
+        tr:nth-child(even) {
+            background-color: @cl_row_alt;
+        }
+    }
+}
+
+.table-addin-hover(@cl_row_alt) {
+    tbody {
+        tr:hover {
+            background-color: @cl_row_alt;
+        }
+    }
+}
+
+
+.table-addin-rounded(@sz_radius) {
+    thead {
+        tr {
+            th:first-child {
+                padding-left:.6em;
+                border-top-left-radius: .3em;
+            }
+
+            th:last-child {
+                padding-right:.6em;
+                border-top-right-radius: .3em;
+            }
+        }
+    }
+    tbody{
+        tr{
+            td:first-child{padding-left:.6em;}
+            td:last-child{padding-right:.6em;}
+        }
+    }
+    tfoot{
+         tr {
+            td:first-child {
+                padding-left:.6em;
+                border-bottom-left-radius: .3em;
+            }
+
+            td:last-child {
+                padding-right:.6em;
+                border-bottom-right-radius: .3em;
+            }
+        }
+    }
+}

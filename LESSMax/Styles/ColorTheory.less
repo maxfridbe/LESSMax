@@ -1,0 +1,390 @@
+﻿@import '../Framework/Parameters/ColorTheory.less';
+
+.tile() {
+    width: 9em;
+    height: 3em;
+}
+
+.section() {
+    border: solid thick black;
+    margin:1em;
+    float: left;
+}
+
+.cl_baseColor {
+    .tile;
+    background-color: @cl_baseColor;
+
+    &::after {
+        content: '@cl_baseColor';
+    }
+}
+
+// Shades
+#shades {
+    .section;
+
+    .cl_shade1 {
+        .tile;
+        background-color: @cl_shade1;
+
+        &::after {
+            content: '@cl_shade1';
+        }
+    }
+
+    .cl_shade2 {
+        .tile;
+        background-color: @cl_shade2;
+
+        &::after {
+            content: '@cl_shade2';
+        }
+    }
+
+    .cl_shade3 {
+        .tile;
+        background-color: @cl_shade3;
+
+        &::after {
+            content: '@cl_shade3';
+        }
+    }
+
+    .cl_shade4 {
+        .tile;
+        background-color: @cl_shade4;
+
+        &::after {
+            content: '@cl_shade4';
+        }
+    }
+
+    .cl_shade5 {
+        .tile;
+        background-color: @cl_shade5;
+
+        &::after {
+            content: '@cl_shade5';
+        }
+    }
+}
+
+// Analgous
+#analgous {
+    .section;
+
+    .cl_analgous1 {
+        .tile;
+        background-color: @cl_analgous1;
+
+        &::after {
+            content: '@cl_analgous1';
+        }
+    }
+
+    .cl_analgous2 {
+        .tile;
+        background-color: @cl_analgous2;
+
+        &::after {
+            content: '@cl_analgous2';
+        }
+    }
+
+    .cl_analgous3 {
+        .tile;
+        background-color: @cl_analgous3;
+
+        &::after {
+            content: '@cl_analgous3';
+        }
+    }
+
+    .cl_analgous4 {
+        .tile;
+        background-color: @cl_analgous4;
+
+        &::after {
+            content: '@cl_analgous4';
+        }
+    }
+
+    .cl_analgous5 {
+        .tile;
+        background-color: @cl_analgous5;
+
+        &::after {
+            content: '@cl_analgous5';
+        }
+    }
+}
+
+// Complementary
+#complementary {
+    .section;
+
+    .cl_complementary1 {
+        .tile;
+        background-color: @cl_complementary1;
+
+        &::after {
+            content: '@cl_complementary1';
+        }
+    }
+
+    .cl_complementary2 {
+        .tile;
+        background-color: @cl_complementary2;
+
+        &::after {
+            content: '@cl_complementary2';
+        }
+    }
+}
+
+// Split Complementary
+#splitcomplementary {
+    .section;
+
+    .cl_splitComp1 {
+        .tile;
+        background-color: @cl_splitComp1;
+
+        &::after {
+            content: '@cl_splitComp1';
+        }
+    }
+
+    .cl_splitComp2 {
+        .tile;
+        background-color: @cl_splitComp2;
+
+        &::after {
+            content: '@cl_splitComp2';
+        }
+    }
+
+    .cl_splitComp3 {
+        .tile;
+        background-color: @cl_splitComp3;
+
+        &::after {
+            content: '@cl_splitComp3';
+        }
+    }
+}
+
+// Clash
+#clash {
+    .section;
+
+    .cl_clash1 {
+        .tile;
+        background-color: @cl_clash1;
+
+        &::after {
+            content: '@cl_clash1';
+        }
+    }
+
+    .cl_clash2 {
+        .tile;
+        background-color: @cl_clash2;
+
+        &::after {
+            content: '@cl_clash2';
+        }
+    }
+
+    .cl_clash3 {
+        .tile;
+        background-color: @cl_clash3;
+
+        &::after {
+            content: '@cl_clash3';
+        }
+    }
+}
+
+// Triadic
+#triadic {
+    .section;
+
+    .cl_triad1 {
+        .tile;
+        background-color: @cl_triad1;
+
+        &::after {
+            content: '@cl_triad1';
+        }
+    }
+
+    .cl_triad2 {
+        .tile;
+        background-color: @cl_triad2;
+
+        &::after {
+            content: '@cl_triad2';
+        }
+    }
+
+    .cl_triad3 {
+        .tile;
+        background-color: @cl_triad3;
+
+        &::after {
+            content: '@cl_triad3';
+        }
+    }
+}
+
+// Tetradic
+#tetradic {
+    .section;
+
+    .cl_tetrad1 {
+        .tile;
+        background-color: @cl_tetrad1;
+
+        &::after {
+            content: '@cl_tetrad1';
+        }
+    }
+
+    .cl_tetrad2 {
+        .tile;
+        background-color: @cl_tetrad2;
+
+        &::after {
+            content: '@cl_tetrad2';
+        }
+    }
+
+    .cl_tetrad3 {
+        .tile;
+        background-color: @cl_tetrad3;
+
+        &::after {
+            content: '@cl_tetrad3';
+        }
+    }
+
+    .cl_tetrad4 {
+        .tile;
+        background-color: @cl_tetrad4;
+
+        &::after {
+            content: '@cl_tetrad4';
+        }
+    }
+}
+
+// Five tone
+#fivetone {
+    .section;
+
+    .cl_5tone1 {
+        .tile;
+        background-color: @cl_5tone1;
+
+        &::after {
+            content: '@cl_5tone1';
+        }
+    }
+
+    .cl_5tone2 {
+        .tile;
+        background-color: @cl_5tone2;
+
+        &::after {
+            content: '@cl_5tone2';
+        }
+    }
+
+    .cl_5tone3 {
+        .tile;
+        background-color: @cl_5tone3;
+
+        &::after {
+            content: '@cl_5tone3';
+        }
+    }
+
+    .cl_5tone4 {
+        .tile;
+        background-color: @cl_5tone4;
+
+        &::after {
+            content: '@cl_5tone4';
+        }
+    }
+
+    .cl_5tone5 {
+        .tile;
+        background-color: @cl_5tone5;
+
+        &::after {
+            content: '@cl_5tone5';
+        }
+    }
+}
+
+// Six tone
+#sixtone {
+    .section;
+    // Pair 1
+    .cl_6tone1 {
+        .tile;
+        background-color: @cl_6tone1;
+
+        &::after {
+            content: '@cl_6tone1';
+        }
+    }
+
+    .cl_6tone2 {
+        .tile;
+        background-color: @cl_6tone2;
+
+        &::after {
+            content: '@cl_6tone2';
+        }
+    }
+    // Pair 2
+    .cl_6tone3 {
+        .tile;
+        background-color: @cl_6tone3;
+
+        &::after {
+            content: '@cl_6tone3';
+        }
+    }
+
+    .cl_6tone4 {
+        .tile;
+        background-color: @cl_6tone4;
+
+        &::after {
+            content: '@cl_6tone4';
+        }
+    }
+    // Pair 3
+    .cl_6tone5 {
+        .tile;
+        background-color: @cl_6tone5;
+
+        &::after {
+            content: '@cl_6tone5';
+        }
+    }
+
+    .cl_6tone6 {
+        .tile;
+        background-color: @cl_6tone6;
+
+        &::after {
+            content: '@cl_6tone6';
+        }
+    }
+}
