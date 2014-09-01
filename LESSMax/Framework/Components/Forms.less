@@ -23,31 +23,51 @@
             display:flex;
             label {
                 //display: inline-block;
-                width: 30%;
+                width: 20%;
                 line-height: 2em;
                 padding-right: 1em;
                 text-align: right;
                 flex-shrink:1;
             }
 
-            input {
+            input:not([type='checkbox']) {
                 flex-grow:1;
                 //display: inline-block;
-                width: 70%;
+                width: 40%;
+                padding: 4px;
+                -webkit-appearance: none;
+                -moz-appearance: none;
+                height:2.5em;
+                border: 2px solid @cl_shade1;
+            }
+            select{
+                flex-grow:1;
+                //display: inline-block;
+                width: 40%;
                 padding: 4px;
                 -webkit-appearance: none;
                 -moz-appearance: none;
                 border: 2px solid @cl_shade1;
             }
+            input[type='checkbox']{
+                width:2em;
+                height:2em;
+            }
 
             textarea {
                 flex-grow:1;
                 //display: inline-block;
-                width: 50%;
+                width: 40%;
                 min-height: 6em;
                 -webkit-appearance: none;
                 -moz-appearance: none;
                 border: 2px solid @cl_shade1;
+            }
+            div{
+                flex-shrink:1;
+                padding-left:1em;
+                width:40%;
+                color:@cl_text_lighter1;
             }
         }
     }

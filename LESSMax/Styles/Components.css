@@ -258,27 +258,46 @@ section {
   display: flex;
 }
 .frm ul li label {
-  width: 30%;
+  width: 20%;
   line-height: 2em;
   padding-right: 1em;
   text-align: right;
   flex-shrink: 1;
 }
-.frm ul li input {
+.frm ul li input:not([type='checkbox']) {
   flex-grow: 1;
-  width: 70%;
+  width: 40%;
+  padding: 4px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  height: 2.5em;
+  border: 2px solid #66bfff;
+}
+.frm ul li select {
+  flex-grow: 1;
+  width: 40%;
   padding: 4px;
   -webkit-appearance: none;
   -moz-appearance: none;
   border: 2px solid #66bfff;
 }
+.frm ul li input[type='checkbox'] {
+  width: 2em;
+  height: 2em;
+}
 .frm ul li textarea {
   flex-grow: 1;
-  width: 50%;
+  width: 40%;
   min-height: 6em;
   -webkit-appearance: none;
   -moz-appearance: none;
   border: 2px solid #66bfff;
+}
+.frm ul li div {
+  flex-shrink: 1;
+  padding-left: 1em;
+  width: 40%;
+  color: #4d4d4d;
 }
 .frm ul li:nth-Child(even) {
   background-color: #99d4ff;
