@@ -13,13 +13,13 @@ section {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  height: 2em;
+  min-height: 2em;
   padding: .5em;
   border-radius: .5em;
   text-decoration: none;
   background-color: #005999;
   color: #66bfff;
-  font-family: Verdana, Geneva, sans-serif;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   cursor: pointer;
   white-space: nowrap;
 }
@@ -38,13 +38,13 @@ section {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  height: 2em;
+  min-height: 2em;
   padding: .5em;
   border-radius: .5em;
   text-decoration: none;
   background-color: #ffab00;
   color: #ff2b00;
-  font-family: Verdana, Geneva, sans-serif;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   cursor: pointer;
   white-space: nowrap;
 }
@@ -63,13 +63,13 @@ section {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  height: 2em;
+  min-height: 2em;
   padding: .5em;
   border-radius: .5em;
   text-decoration: none;
   background-color: #ff2b00;
   color: #ffab00;
-  font-family: Verdana, Geneva, sans-serif;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   cursor: pointer;
   white-space: nowrap;
 }
@@ -88,13 +88,13 @@ section {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  height: 2em;
+  min-height: 2em;
   padding: .5em;
   border-radius: .5em;
   text-decoration: none;
   background-color: #d4ff00;
   color: #0094ff;
-  font-family: Verdana, Geneva, sans-serif;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   cursor: pointer;
   white-space: nowrap;
 }
@@ -107,7 +107,7 @@ section {
   color: #0094ff;
 }
 .tbl1 {
-  font-family: Verdana, Geneva, sans-serif;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   margin: 0;
   padding: 0;
   border-spacing: 0;
@@ -134,7 +134,7 @@ section {
   padding: .3em;
 }
 .tbl2 {
-  font-family: Verdana, Geneva, sans-serif;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   margin: 0;
   padding: 0;
   border-spacing: 0;
@@ -164,7 +164,7 @@ section {
   background-color: #99d4ff;
 }
 .tbl3 {
-  font-family: Verdana, Geneva, sans-serif;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   margin: 0;
   padding: 0;
   border-spacing: 0;
@@ -213,7 +213,7 @@ section {
   border-bottom-right-radius: .3em;
 }
 .tbl4 {
-  font-family: Verdana, Geneva, sans-serif;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   margin: 0;
   padding: 0;
   border-spacing: 0;
@@ -243,7 +243,7 @@ section {
   background-color: #99d4ff;
 }
 .frm {
-  font-family: Verdana, Geneva, sans-serif;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 .frm ul {
   margin: 0;
@@ -297,6 +297,7 @@ section {
   flex-shrink: 1;
   padding-left: 1em;
   width: 40%;
+  font-size: .8em;
   color: #4d4d4d;
 }
 .frm ul li:nth-Child(even) {
