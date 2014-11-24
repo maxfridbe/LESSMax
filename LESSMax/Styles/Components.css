@@ -277,8 +277,6 @@ section {
   flex-grow: 1;
   width: 40%;
   padding: 4px;
-  -webkit-appearance: none;
-  -moz-appearance: none;
   border: 2px solid #66bfff;
 }
 .frm ul li input[type='checkbox'] {
@@ -303,3 +301,4 @@ section {
 .frm ul li:nth-Child(even) {
   background-color: #99d4ff;
 }
+/*# sourceMappingURL=Components.css.map */
